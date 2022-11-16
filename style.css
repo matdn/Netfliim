@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #DF0914;
+}
+.flex{
+    display: flex;
+}
+header{
+    background-color: transparent;
+    width: 100%;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    margin: 0 7%;
+}
+.connexion{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("assets/netflix_fond\ 6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.connexion h1{
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+.connexion h2{
+    font-family: noto-sans;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+form{
+    height: 40vh;
+    width: 25vw;
+    background-color: rgba(0, 0, 0, 0.69);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+form input{
+    font-family: noto-sans;
+    font-size: 16px;
+    height: 18%;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    background-color: #595959;
+    color: #A1A1A1;
+    padding: 0 7%;
+    margin: 10px 0;
+}
+#connexion{
+    height: 12%;
+    background-color: #DF0914;
+    color: white;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.indices{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.indices .header{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+.indices .flex{
+    height: 80%;
+    width: 100%;
+}
+.laptop, .usbkey{
+    height: 80%;
+    width: 50%; 
+    padding: 0 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.usbkey h2{
+    font-family: roboto;
+    font-size: 64px;
+    text-align: center;
+}
+.usbkey p, .laptop p{
+    font-family: noto-sans;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+.usbkey a, .laptop a{ 
+    text-decoration-color: #DF0914;
+}
+.usbkey a p, .laptop a p{
+   color: #DF0914;
+   font-size: 18px;
+}
+.fill{
+    color: #DF0914;
+    font-family: noto-sans;
+    margin-top: 20px;
+}
