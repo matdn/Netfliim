@@ -19,11 +19,12 @@
         <h2>
             Connexion à vos fichiers confidentiels
         </h2>
-        <form action="" method="get" class="form-example">
-            <input type="text" placeholder="Code" required>
+        <form class="form-example" onsubmit="codeVerif(event)">
+            <input id="code" type="text" placeholder="Code" required>
             <input type="submit" id="connexion" value="Soumettre">
             <a class="fill" href="access.php" download="access.php">fill to download</a>
         </form>
     </main>
 </body>
+<script src="code.js"></script>
 </html>

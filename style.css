@@ -20,13 +20,24 @@ header{
 .connexion{
     height: 100vh;
     width: 100vw;
-    background-image: url("assets/netflix_fond\ 6.png");
+    background-image: url("assets/netflix_fond\ 8.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.connexion header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.connexion header .sound{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0 40px 0 0;
 }
 .connexion h1{
     font-family: roboto;
@@ -53,7 +64,7 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 form input{
     font-family: noto-sans;
@@ -129,4 +140,52 @@ form input{
     color: #DF0914;
     font-family: noto-sans;
     margin-top: 20px;
+}
+.laptopGIF{
+    margin-top: 50px;
+    width: 110%;
+    height: auto;
+}
+.files{
+    height: 100vh;
+}
+.mainFiles{
+    background-color: black;
+    background-image: none;
+    height: 100%;
+}
+.mainFiles header{
+    display: flex;
+    align-items: center;
+    font-family: roboto;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.mainFiles header img{
+    margin-top: 40px;
+ }
+.mainFiles header ul{
+    display: flex;
+    gap: 40px;
+}
+.mainFiles header li{
+   list-style: none;
+}
+.filesCarousel .header{
+    display: flex;
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    gap: 40px;
+    margin: 0 0 0 40px;   
+}
+.filesCarousel header img{
+    height: 50px;
+    width: 50px;
+}
+.filesCarousel .carousel{
+    margin: 40px 0 40px 40px;
+    gap: 40px;
 }
